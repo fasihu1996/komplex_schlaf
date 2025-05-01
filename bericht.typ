@@ -12,11 +12,23 @@
   ],
   fill: rgb("#F2F0EF")
 )
-#set text(font:"New Computer Modern", size:13pt, fill: black)
+#set text(
+  font:"New Computer Modern",
+  size:13pt,
+  fill: black,
+  lang: "de"
+)
 #set par(justify:true)
 
-= Testbericht für das Projekt: GS - Sleep Well G2
+= Testbericht
 #set heading(level: 1, numbering: "1.")
+#set text(font: "Times New Roman", size:12pt, fill: black)
+Projekt: GS - Sleep Well G2
+
+User Story DV-1: "Diagnosevorschlag erstellen"
+
+Testdatum: 29.04.2025
+#set text(font:"New Computer Modern", size:13pt, fill: black)
 == Einleitung
 Es wird die Erzeugung eines Diagnosevorschlags auf Grundlage von Messdaten getestet. Die Messdaten werden dabei von einem Tool erzeugt, welches echte Messdaten simulieren soll. Ziel ist es, die korrekte Erstellung von Diagnosen basierend auf den erzeugten Messdaten sicherzustellen.
 == Testumfang
